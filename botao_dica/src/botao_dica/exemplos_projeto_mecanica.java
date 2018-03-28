@@ -13,7 +13,7 @@ public class exemplos_projeto_mecanica extends JFrame{
 	
 		public exemplos_projeto_mecanica() {
         
-        super("Botıes com dicas");
+        super("Bot√µes com dicas");
         Container tela = getContentPane();
         setLayout(null);
         
@@ -22,11 +22,11 @@ public class exemplos_projeto_mecanica extends JFrame{
 		consultar = new JButton("Consultar");
 		limpar = new JButton("limpar");
 		
-		// dica dos botıes
-		fechar.setToolTipText("Esse bot„o ir· fechar o programa");
-		cadastrar.setToolTipText("Ao clicar aqui, vocÍ ir· cadastrar os itens digitados");
-		consultar.setToolTipText("Ao clicar aqui, vocÍ ir· consultar os itens desejados");
-		limpar.setToolTipText("Ao clicar aqui, vocÍ ir· limpar os itens dados digitados");
+		// dica dos bot√µes
+		fechar.setToolTipText("Esse bot√£o ir√° fechar o programa");
+		cadastrar.setToolTipText("Ao clicar aqui, voc√™ ir√° cadastrar os itens digitados");
+		consultar.setToolTipText("Ao clicar aqui, voc√™ ir√° consultar os itens desejados");
+		limpar.setToolTipText("Ao clicar aqui, voc√™ ir√° limpar os itens digitados");
 		
 		// cor das dicas
 		UIManager.put("ToolTip.background",Color.black);
