@@ -10,7 +10,7 @@ public class ConsServ extends JInternalFrame{
 	JButton fechar, pesquisar;
 	JLabel pesqpor;
 	JComboBox parpesq;
-	String campos[] = {"Descrição", "Status", "Categoria", "Valor", "Código do Funcionário", "Código do cliente", "Código do Veículo"};
+	String campos[] = {"Descrição", "Status", "Categoria", "Valor"};
 	JTextField pesq_txt;
 	ImageIcon pesq;
 	public ConsServ() {
